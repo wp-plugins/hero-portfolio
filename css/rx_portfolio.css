@@ -1,0 +1,180 @@
+#rx_content{
+	margin-top: 50px;
+}
+/* RX HERO THUMB
+================================================== */
+.hero_thumb_ui{	
+	margin-bottom: 25px;
+	position: relative;	
+	overflow: hidden;	
+	perspective: 1700px;
+}
+.hero_thumb_ui_two_cols{
+	margin-bottom: 30px;
+}
+.hero_thumb_ui_one_col{
+	margin-bottom: 50px;
+}
+.hero_thumb_container{
+	position: relative;
+	overflow: hidden;
+}
+a.hero_thumb_image_link{
+	outline: none;
+	border: none;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	top: 0px;
+	left: 0px;
+}
+a.hero_thumb_image_link img{
+	border: none;
+	outline: none;
+	margin: 0;
+	max-width: 100% !important;	
+}
+
+/* RX HERO HOVER UI
+================================================== */
+.rx_hero_hoverui, .rx_hero_hoverui_one_col{
+	width: 50%;
+	height: 100%;
+	background-color: #283d53;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;		
+}
+.rx_hero_hoverui_one_col{
+	width: 35%;	
+}
+h3.rx_hero_thumb_title, h2.rx_hero_thumb_title_one_col{
+	color: #F2F2F2 !important;
+	margin: 10px !important;
+	margin-bottom: 10px !important;
+	margin-left: 15px !important;	
+	font-size: 18px !important;
+}
+.rx_hero_thumb_underline{
+	height: 1px;
+	background-color: #a5a5a5;
+	background: rgba(165, 165, 165, .5);
+	margin: 0 15px;
+}
+p.rx_hero_excerpt{
+	color: #d43f5d;	
+	margin: 15px;
+	font-size: 12px;
+}
+
+a.rx_hero_read_more{	
+	padding: 4px 12px;
+	padding-bottom: 5px;
+	background-color: #d43f5d;
+	color: #F2F2F2 !important;	
+	text-decoration: none;	
+	font-size: 13px !important;
+}
+a.rx_hero_read_more:hover{
+	background-color: #df4564;
+	color: #FFF !important;
+}
+.read_more_ui_bottom{
+	position: absolute;
+	bottom: 12px;
+	right: 10px;	
+}
+.read_more_ui a{
+	float: right;
+	margin-right: 15px;
+}
+
+
+/* HERO - SINGLE PAGE
+================================================== */
+.single_top_space{
+	height: 1px;
+	margin-bottom: 15px;	
+}
+h2.rx_single_page_title{
+	font-size: 1.6em !important;
+	margin: 15px 0 !important;
+	margin-top: 30px !important;
+}
+div.rx_post_content{
+	line-height: 22px;
+}
+/* END HERO - SINGLE PAGE
+================================================== */
+
+
+/* HERO - RELATED PROJECTS
+================================================== */
+.rx_related_projects{
+	margin: 40px 0;
+}
+h2.rx_related_projects_title{
+	font-size: 1.4em !important;
+	margin: 15px 0 !important;
+	margin-bottom: 0px !important;
+}
+.rx_related_underline{
+	height: 1px;
+	background-color: #a5a5a5;
+	background: rgba(165, 165, 165, .5);
+	margin-top: 12px;
+	margin-bottom: 25px;
+}
+.rx_related_project{	
+	margin-bottom: 25px;
+	overflow: hidden;
+	position: relative;
+}
+.rx_related_overlay{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #283d53;
+	background: rgba(40, 61, 83, .8);
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	display: none;
+}
+h3.rx_related_title{
+	color: #F2F2F2 !important;	
+	text-align: center !important;
+	margin-top: 35px !important;	
+	font-size: 16px !important;	
+}
+.rx_related_cross{
+	width: 60px;
+	position: relative;
+	margin: auto;
+	margin-top: 55px;	
+}
+
+
+/* UTILS
+================================================== */
+.rx_clear{
+	clear: both;
+}
+.nextPost a, .previousPost a{
+	text-decoration: none;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-style: italic;	
+	margin-top: 0;
+	margin-bottom: 0;
+	outline: none;		
+}
+.previousPost a{
+	margin-right: 15px;
+}
+
+
+
